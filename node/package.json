@@ -1,0 +1,20 @@
+{
+  "name": "tensorflowjs_playground",
+  "version": "1.0.0",
+  "description": "template for quickly running tensorflow.js scripts",
+  "main": "index.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tensorflow",
+    "tensorflow.js",
+    "javascript"
+  ],
+  "author": "Antoni Silvestrovic",
+  "license": "MIT"
+}
