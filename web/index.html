@@ -5,7 +5,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
 </head>
 <body>
-    <h1 id="remove-me" onClick="function() {let removeThis = document.getElementById('remove-me'); removeThis.removeChild(removeThis);}">Open console to play with Tensorflow.js! \nClick me to remove me from here!</h1>
+    <h1 id="remove-me" onclick="removeHeader">Open console to play with Tensorflow.js! \nClick me to remove me from here!</h1>
     <script src="./index.js"></script>
+    <script>
+        function removeHeader() {
+            let removeThis = document.getElementById('remove-me'); 
+            removeThis.removeChild(removeThis);
+        }
+    </script>
 </body>
 </html>
